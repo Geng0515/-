@@ -1,0 +1,14 @@
+int main()
+{
+	int r;
+	float l, s;
+	r = 5;
+	l = 2 * 3.14159 * r;
+	s = 3.14159 * r * r;
+	printf("r=%d,l=%f,s=%f\n", r, l, s);
+
+	return 0;
+
+
+
+}
