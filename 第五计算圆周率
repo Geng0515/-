@@ -1,0 +1,17 @@
+
+int main()
+{
+	int r =  0;
+	printf("请输入已知圆的半径，即可计算圆的周长和面积\n");
+	scanf("%d", &r);
+	float l, s;
+	
+	
+	l = 2 * 3.14159 * r;
+	s = 3.14159 * r * r;
+	printf("r=%d,l=%f,s=%f\n", r, l, s);
+
+	return 0;
+
+
+
