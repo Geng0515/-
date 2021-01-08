@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_DEPRECATE 
+#include<stdio.h>
+
+void main()
+{
+
+	int a, b, s;
+	scanf("%d%d", &a, &b);  // 输入两条边长
+	s = area(a, b);
+	printf("柜型 =  %d\n", s);
+
+	
+}
+int area(int a, int b)//新建 函数 求柜型面积
+{
+	int s;
+	s = a * b;
+	return s;  //返回柜型面积的值
+
+}
