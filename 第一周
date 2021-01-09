@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+
+    int hangshu = 0;//定义函数 行数
+    while (hangshu<20000000)
+
+    {
+        printf("我要好工作%d \n",hangshu);
+            hangshu++;
+    }
+    printf("hahahahahah");
+
+
+
+
+    return 0;
+}
