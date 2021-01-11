@@ -1,0 +1,17 @@
+int main()
+{
+	int a = 2;
+	
+	while (a < 5)
+
+	{
+
+		--a;
+		printf("%d\n", a);
+		++a;
+		printf("%d\n", a);
+
+	}
+	return  0;
+
+}
