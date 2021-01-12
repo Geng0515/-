@@ -1,0 +1,21 @@
+
+#include<stdio.h>
+int main()
+{
+	int a[10] = { 0,1,2,100,4 };
+
+	//int b = 51111100;
+	//int  c = 0;
+	//c = (a > b ? a : b);//  三木操作符  先判断 是否大于  然后 大于就给A赋值  反之赋值给B
+	/*if (a > b)
+
+		c = a;
+	else
+		c = b;
+	*/
+	printf("%d\n",a[3]);
+
+
+	return  0;
+
+}
