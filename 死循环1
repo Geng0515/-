@@ -1,0 +1,13 @@
+int main()
+{
+
+	int a = 0;
+	while (a<10)
+	{
+		a++;
+		printf("%d\n", a);
+		a--;
+		printf("%d\n", a);
+	}
+	printf("结束了老铁");
+	return 0;
