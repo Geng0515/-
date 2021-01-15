@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+
+main()
+{
+
+	int a = 50;
+	int* p = &a;
+	printf("%p\n", &a);
+
+
+
+	
+	return 0;
+
+}
