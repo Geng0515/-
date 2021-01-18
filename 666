@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_DEPRECATE 
+
+#include <stdio.h>
+int main(void){
+    int a=0,b=18;
+     printf("输入你的年龄: ");
+    scanf_s("%d",&a);
+    if (a < b)
+        printf("您是未成年请尽快离开");
+    else
+        printf("您是成年人，我们这里有大保健服务你要哪种");
+ 
+    return 0;
+}
