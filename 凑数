@@ -1,0 +1,6 @@
+int main(void){
+    double a = 5.5;
+    double* p = &a;
+    printf("%f\n", p);
+    return 0;
+}
