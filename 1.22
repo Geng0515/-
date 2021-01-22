@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main()
+{
+	char c=127;
+	long li=2147483647;
+	unsigned uc;
+	unsigned long uli;
+	printf("c=%d, li=%ld\n", c,li);
+
+	c=c+1;
+	li=li+1;
+	printf("c=%d, li=%ld\n", c,li);
+
+	c=127+100;
+	li=2147483647+100;
+	printf("c=%d, li=%ld\n", c,li);
+
+	uc=127+100;
+	uli=2147483647+100;
+	printf("uc=%d, uli=%ld\n", uc,uli);
+	printf("uc=%u, uli=%lu\n", uc,uli);
+}
