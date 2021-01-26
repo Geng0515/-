@@ -1,0 +1,27 @@
+#define _CRT_SECURE_NO_DEPRECATE 
+
+#include <stdio.h>
+
+//创建一个结构体类型
+
+int main()
+{
+	int age = 10;//
+	scanf_s("%d", &age);
+	if (age < 18)
+		printf("未成年\n");
+	else if (age >= 18 && age <28)
+
+		printf("青年\n");
+
+	//else if(age >= 28  && age<=58)
+
+
+		//printf("成年人\n");
+
+
+
+
+	return 0;
+
+}
