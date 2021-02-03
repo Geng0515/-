@@ -1,0 +1,12 @@
+{
+
+	int a = 0;
+	int i= 0;
+
+	for (a = 0; a <= 3; a++)
+	{
+		for (i = 0; i < 5; i++)
+		{
+			printf("a%d\n",i);
+		}
+	}
