@@ -1,0 +1,11 @@
+
+	int aaaaaaa = 0;
+	int aaaaaan= 0;
+	int aet =1;
+	scanf("%d", &aaaaaan);
+	for (aaaaaaa = 1; aaaaaaa <= aaaaaan; aaaaaaa++)
+	{
+		aet = aet * aaaaaaa;
+	}
+	printf("aet= %d\n ",aet);
+
