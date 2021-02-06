@@ -1,0 +1,13 @@
+	int a = 0;
+	
+	int ret = 1;
+
+	int sum = 0;
+
+	for (a = 1; a <=3; a++)
+	{
+		ret =ret * a;
+		sum = sum + ret;
+	}
+		printf("a= %d", sum);
+
