@@ -1,0 +1,6 @@
+//int	ret = 0;
+	//int ch = 0;
+	//char password[20] = { 0 };//创建一个数组存储密码
+	//printf("请输入密码");
+	//scanf("%s\n", &password);//输入数组
+	//while ((ch=getchar()) != '\n')
